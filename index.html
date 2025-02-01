@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/dc203b3c9a.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/dc203b3c9a.js" crossorigin="anonymous" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -20,13 +21,119 @@
         },
       };
     </script>
+    <style>
+      .font-ad{
+        font-family: "ADLaM Display", serif;
+      }
+
+      .font-sora{
+        font-family: "Sora", serif;
+      }
+    </style>
   </head>
+
   <body>
     <!-- HEADER -->
     <header></header>
     <!-- MAIN -->
-    <main></main>
+    <main class="mx-auto">
+      <!-- CATEGORY SECTION START -->
+      <div class="container max-w-[1320px]  mx-auto">
+        <h3 class="font-ad text-4xl font-normal mx-4">Browse By Categories</h3>
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-4 mt-9 mx-4"> <!--Card parent-->
+          <!-- Card-1 Start -->
+          <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+            <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
+              <img src="assets/images/dog-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
+            </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title font-ad text-xl font-normal">Dog</h2>
+                <p class="font-normal text-base font-sora">3 items</p>
+              </div>
+          </div>
+          <!-- Card-1 End -->
+          <!-- Card-2 Start -->
+          <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+            <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
+              <img src="assets/images/fish-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-ad text-xl font-normal">Fish</h2>
+              <p class="font-normal text-base font-sora">3 items</p>
+            </div>
+          </div>
+          <!-- Card-2 End -->
+          <!-- Card-3 Start -->
+          <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+            <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
+              <img src="assets/images/cat-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-ad text-xl font-normal">Cat</h2>
+              <p class="font-normal text-base font-sora">3 items</p>
+            </div>
+          </div>
+          <!-- Card-3 End -->
+          <!-- Card-4 Start -->
+          <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+            <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
+              <img src="assets/images/bird-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-ad text-xl font-normal">Birds</h2>
+              <p class="font-normal text-base font-sora">3 items</p>
+            </div>
+          </div>
+          <!-- Card-4 End -->
+          <!-- Card-5 Start -->
+           <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+            <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
+              <img src="assets/images/mouse-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-ad text-xl font-normal">Small pet</h2>
+              <p class="font-normal text-base font-sora">3 items</p>
+            </div>
+          </div>
+          <!-- Card-5 End -->
+          <!-- Card-6 Start -->
+           <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+            <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
+              <img src="assets/images/rabbit-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-ad text-xl font-normal">Rabit</h2>
+              <p class="font-normal text-base font-sora">2 items</p>
+            </div>
+          </div>
+          <!-- Card-6 End -->
+        </div>
+      </div>
+      <!-- CATEGORY SECTION END -->
+      <!-- TRENDING SECTION START -->
+      <section class="bg-[#FFF9F4] w-full h-[700px] mt-24">
+        <div class="container max-w-[1320px] mx-auto py-20 space-y-7">
+          <h3 class="font-ad text-4xl font-normal mx-4">Trending Pet Products</h3>
+          <div class="grid grid-cols-[1fr, 2fr]">
+            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A] max-w-[424px] h-[402px]"> <!--card-1-->
+              <div class="card-body space-y-3">
+                <h2 class="card-title font-ad text-2xl font-normal capitalize">T-shirt for dogs</h2>
+                <p class="font-normal text-base font-sora">Discover a world of treats, toys, and essential handpicked for</p>
+                <div class="card-actions">
+                  <button class="btn font-normal text-base font-sora cursor-pointer hover:scale-[1.2] hover:duration-300 hover:font-semibold">Shop Now</button>
+                </div>
+                <figure class="relative -top-40 left-20">
+                  <img src="assets/images/cute-pet-small.png" alt="" class="w-[244px] h-[321px]">
+                </figure>
+              </div>
+            </div><!--card-1--end--> 
+            <div class=""></div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- FOOTER -->
     <footer></footer>
   </body>
+
 </html>
