@@ -70,16 +70,16 @@
               <li><a href="#">Contact us</a></li>
             </ul>
           </div>
-          <div class="flex justify-center items-center gap-2">
+          <div class="flex justify-center items-center gap-2 cursor-pointer">
             <img src="assets/images/logo-header.png" alt="" class="w-[48px] h-[48px]">
             <p class="text-2xl font-normal font-sora hidden md:block">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
           </div>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-base font-normal font-sora">
-            <li><a href="#">Find a pet</a></li>
-            <li><a href="#">Breeds</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li class="hover:font-semibold "><a href="#">Find a pet</a></li>
+            <li class="hover:font-semibold"><a href="#">Breeds</a></li>
+            <li class="hover:font-semibold"><a href="#">Contact us</a></li>
           </ul>
         </div>
         <div class="navbar-end flex gap-3">
@@ -91,24 +91,24 @@
         </div>
       </div>
       <!-- NAVBAR END -->
+    </header>
+    <!-- MAIN -->
+    <main class="mx-auto">
       <!-- HERO SECTION START -->
-      <div class="hero bg-base-200 md:min-h-[652px] md:max-w-[1320px] w-full md:bg-[url('assets/images/cat-big.png')] bg-white bg-cover bg-center mx-auto py-7 md:py-0">
+      <div class="hero bg-base-200 md:min-h-[652px] md:max-w-[1320px] w-full md:bg-[url('assets/images/cat-big.png')] bg-white bg-cover bg-center mx-auto py-7 md:py-0 md:mb-20 mb-5">
         <div class="hero-content relative top-0 md:-top-28 left-0 md:-left-[405px]">
           <div>
             <h1 class="md:text-5xl text-3xl font-bold">Pamper Your Pet,<br> Because They Deserve<br> the Best</h1>
             <p class="py-5 md:w-[472px] w-full text-[#707070] z-10 relative">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-            <button class="btn w-[159px] h-[45px] font-sora text-xl font-normal bg-[#FFDC26] 
+            <button class="btn w-[159px] h-[45px] font-sora md:text-xl text-base font-normal bg-[#FFDC26] 
             hover:border-solid hover:border-[#FFDC26] hover:bg-[#FFF9F4] border-none md:flex animate-bounceScale z-20 relative">Find a pet</button>
             <img src="assets/images/cat-big.png" alt="" class="w-full bg-cover md:hidden block -mt-20">
           </div>
         </div>
       </div>
       <!-- HERO SECTION END -->
-    </header>
-    <!-- MAIN -->
-    <main class="mx-auto">
       <!-- CATEGORY SECTION START -->
-      <div class="container max-w-[1320px]  mx-auto">
+      <div class="max-w-[1320px]  mx-auto">
         <h3 class="font-ad text-2xl md:text-4xl font-normal mx-4">Browse By Categories</h3>
         <div class="grid grid-cols-2 md:grid-cols-6 gap-4 mt-9 mx-4"> <!--Card parent-->
           <!-- Card-1 Start -->
@@ -123,7 +123,7 @@
           </div>
           <!-- Card-1 End -->
           <!-- Card-2 Start -->
-          <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+          <div class="card max-w-full md:max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
             <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
               <img src="assets/images/fish-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
             </figure>
@@ -134,7 +134,7 @@
           </div>
           <!-- Card-2 End -->
           <!-- Card-3 Start -->
-          <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+          <div class="card max-w-full md:max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
             <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
               <img src="assets/images/cat-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
             </figure>
@@ -145,7 +145,7 @@
           </div>
           <!-- Card-3 End -->
           <!-- Card-4 Start -->
-          <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+          <div class="card max-w-full md:max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
             <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
               <img src="assets/images/bird-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
             </figure>
@@ -156,7 +156,7 @@
           </div>
           <!-- Card-4 End -->
           <!-- Card-5 Start -->
-           <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+           <div class="card max-w-full md:max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
             <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
               <img src="assets/images/mouse-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
             </figure>
@@ -167,7 +167,7 @@
           </div>
           <!-- Card-5 End -->
           <!-- Card-6 Start -->
-           <div class="card bg-base-100 max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
+           <div class="card max-w-full md:max-w-[200px] h-[254px] shadow-xl bg-[#F9DF8A]">
             <figure class="rounded-[100%] w-[90px] h-[90px] md:w-24 md:h-24 bg-white mx-auto mt-6">
               <img src="assets/images/rabbit-cartoon.png" alt="" class="w-10 h-10 md:w-[48px] md:h-[48px]" />
             </figure>
@@ -181,30 +181,28 @@
       </div>
       <!-- CATEGORY SECTION END -->
       <!-- TRENDING SECTION START -->
-      <section class="bg-none md:bg-[#FFF9F4] w-full h-auto mt-24">
+      <section class="bg-none md:bg-[#FFF9F4] w-full h-auto md:mt-24 mt-5">
         <div class="container max-w-[1320px] mx-auto py-20 space-y-7">
           <h3 class="font-ad text-2xl md:text-4xl font-normal mx-4">Trending Pet Products</h3>
           <div class="grid grid-cols-1 md:grid-cols-[1fr_2fr] mx-4 gap-3">
-            <div class="card bg-base-100 shadow-xl bg-[#F9DF8A] max-w-[424px] h-[405px]"> <!--card-1-->
-              <div class="card-body space-y-3">
+            <div class="card shadow-xl bg-[#F9DF8A] max-w-full md:max-w-[424px] h-[360px] md:h-[405px] mb-[20px] md:mb-0"> <!--card-1-->
+              <div class="py-10 px-8 space-y-3">
                 <h2 class="card-title font-ad text-2xl font-normal capitalize">T-shirt for dogs</h2>
                 <p class="font-normal text-base font-sora">Discover a world of treats, toys, and essential handpicked for</p>
-                <div class="card-actions">
-                  <button class="btn font-normal text-base font-sora cursor-pointer hover:scale-[1.2] hover:duration-300 hover:font-semibold">Shop Now</button>
+                <button class="btn font-normal text-base font-sora cursor-pointer hover:scale-[1.2] hover:duration-300 hover:font-semibold">Shop Now</button>
+                <div class="absolute top-16 md:top-12 left-44 md:left-44">
+                    <img src="assets/images/cute-pet-small.png" alt="" class="w-[205px] md:w-[244px] h-[250px] md:h-[321px]">
                 </div>
-                <figure class="relative -top-40 left-20">
-                  <img src="assets/images/cute-pet-small.png" alt="" class="w-[205px] md:w-[244px] h-[270px] md:h-[321px]">
-                </figure>
               </div>
             </div><!--card-1--end--> 
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-3"><!--card-grid-2--start-->
+            <div class="grid grid-cols-2 md:grid-cols-3 md:gap-3 gap-1"><!--card-grid-2--start-->
               <div class="sm-card-1">
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-1 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/dog-cartoon.png" alt="" class="w-48px h-48px">
                   </div>
                   <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
+                  <div class=" flex justify-center items-center w-[54px] h-[54px] px-2 bg-[#FFF9F4] rounded-2xl md:hidden">
                     <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
                   </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
@@ -214,12 +212,12 @@
                   </div>
                 </div>
 
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/rabbit-cartoon.png" alt="" class="w-48px h-48px">
                   </div>
                   <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
+                  <div class=" flex justify-center items-center w-[54px] h-[54px] px-2 bg-[#FFF9F4] rounded-2xl md:hidden">
                     <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
                   </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
@@ -229,12 +227,12 @@
                   </div>
                 </div>
 
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/fish-cartoon.png" alt="" class="w-48px h-48px">
                   </div>
                   <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
+                  <div class=" flex justify-center items-center w-[54px] h-[54px] px-2 bg-[#FFF9F4] rounded-2xl md:hidden">
                     <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
                   </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
@@ -247,12 +245,12 @@
 
               
               <div class="sm-card-2">
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/fish-cartoon.png" alt="" class="w-48px h-48px">
                   </div>
                   <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
+                  <div class=" flex justify-center items-center w-[54px] h-[54px] px-2 bg-[#FFF9F4] rounded-2xl md:hidden">
                     <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
                   </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
@@ -262,12 +260,12 @@
                   </div>
                 </div>
 
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/bird-cartoon.png" alt="" class="w-48px h-48px">
                   </div>
                   <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
+                  <div class=" flex justify-center items-center w-[54px] h-[54px] px-2 bg-[#FFF9F4] rounded-2xl md:hidden">
                     <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
                   </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
@@ -277,12 +275,12 @@
                   </div>
                 </div>
 
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/pet-couch.png" alt="" class="w-48px h-48px">
                   </div>
                   <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
+                  <div class=" flex justify-center items-center w-[54px] h-[54px] px-2 bg-[#FFF9F4] rounded-2xl md:hidden">
                     <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
                   </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
@@ -294,14 +292,10 @@
               </div>
 
               <div class="sm-card-3 hidden md:block">
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/bird-cartoon.png" alt="" class="w-48px h-48px">
                   </div>
-                  <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
-                    <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
-                  </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
                     <span class="font-sora font-medium text-[10px] md:text-base"><i class="fa-solid fa-star text-[#FFC107]"></i> 4.5</span>
                     <h4 class="font-sora font-medium text-[10px] md:text-xl">Pet Bed</h4>
@@ -309,14 +303,10 @@
                   </div>
                 </div>
 
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/pet-couch.png" alt="" class="w-48px h-48px">
                   </div>
-                  <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
-                    <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
-                  </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
                     <span class="font-sora font-medium text-[10px] md:text-base"><i class="fa-solid fa-star text-[#FFC107]"></i> 4.5</span>
                     <h4 class="font-sora font-medium text-[10px] md:text-xl">Pet Bed</h4>
@@ -324,14 +314,10 @@
                   </div>
                 </div>
 
-                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 mb-6">
+                <div class="flex items-center bg-white shadow-lg w-full md:w-[275px] h-[73px] md:h-[118px] rounded-2xl pl-4 pr-14 gap-3 md:gap-5 md:mb-6 mb-[7px]">
                   <div class="hidden md:flex justify-center items-center w-[86px] h-[86px] bg-[#FFF9F4] rounded-2xl">
                     <img src="assets/images/rabbit-cartoon.png" alt="" class="w-48px h-48px">
                   </div>
-                  <!--For mobile-->
-                  <div class=" flex justify-center items-center w-[53px] h-[56px] bg-[#FFF9F4] rounded-2xl md:hidden">
-                    <img src="assets/images/pet-couch.png" alt="" class="w-29px h-17px">
-                  </div><!--For mobile-->
                   <div class="space-y-0 md:space-y-1">
                     <span class="font-sora font-medium text-[10px] md:text-base"><i class="fa-solid fa-star text-[#FFC107]"></i> 4.5</span>
                     <h4 class="font-sora font-medium text-[10px] md:text-xl">Pet Bed</h4>
@@ -345,27 +331,44 @@
         </div>
       </section>
       <!-- TRENDING SECTION END -->
+      <!-- COMPANION SECTION START -->
+       <div class="max-w-full md:max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:pt-20 mt-6 md:px-4 px-4">
+        <div class="space-y-4">
+            <h3 class="text-2xl md:text-4xl font-ad font-normal text-[#1111111] text-left">Find Your Pet Match Today!</h3>
+            <p class="text-base font-sora font-normal text-[#1111111] text-left">Discover your ideal furry, feathery, or scaly friend with our smart matching tool. Whether you’re looking for a playful puppy, a quiet kitty, or a vibrant bird, we’ll help you connect with the perfect companion for your lifestyle.</p>
+            <ul class="text-base font-sora font-normal text-[#1111111] space-y-2 list-disc pl-6">
+                <li><strong>Interactive Quiz :</strong> Answer a few simple questions to find the best pet for your home.</li>
+                <li><strong>Adoption Stories :</strong> Read heartwarming tales of pets finding their forever homes.</li>
+                <li><strong>Local Shelters :</strong> Browse pets from shelters in your area and give them a loving home.</li>
+            </ul>
+        </div>
+        <div>
+            <img src="assets/images/new.png" alt="" class="w-full rounded-md">
+        </div>
+       </div>
+      <!-- COMPANION SECTION END -->
       <!-- PRICE SECTION START -->
-      <div class="container max-w-[1320px] mx-auto md:py-20 py-4 space-y-7">
+      <div class="max-w-[1320px] mx-auto md:py-20 py-4 space-y-7 mt-20 md:mt-0">
         <h3 class="font-ad text-2xl md:text-4xl font-normal mx-4">Everyday low Price</h3>
         <div class="grid grid-cols-1 md:grid-cols-[1.3fr_1fr] mx-4 gap-3">
-          <div class="card bg-base-100 shadow-xl bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]  max-w-full md:max-w-[784px] h-[385px] md:h-[405px] md:pl-8 pl-4 md:py-10 pt-4 mb-3"> <!--card-1-->
-            <div class="card-body space-y-2">
-              <p class="font-sora text-xl font-normal capitalize text-black hidden md:block">Under Price</p>
-              <h2 class="card-title font-ad md:text-3xl text-xl font-normal capitalize text-black">Pet Grooming Mitt</h2>
-              <p class="font-normal text-2xl font-ad text-white hidden md:block">(Easy Hair Removal)</p>
-              <h4 class="font-normal md:text-5xl text-4xl md:text-[#000000] text-white font-ad">7.99$</h4>
-              <figure class="relative -top-20 md:-top-72 left-[80px] md:left-40">
+          <div class="card bg-base-100 shadow-xl bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]  max-w-full md:max-w-[784px] h-[345px] md:h-[405px] mb-3"> <!--card-1-->
+            <div class="card">
+              <p class="font-sora text-xl font-normal capitalize text-black hidden md:block mt-28 ml-12">Under Price</p>
+              <h2 class="font-ad md:text-3xl text-xl font-normal capitalize text-black md:ml-12 ml-10 mt-10">Pet Grooming Mitt</h2>
+              <p class="font-normal text-2xl font-ad text-white hidden md:block ml-12">(Easy Hair Removal)</p>
+              <h4 class="font-normal md:text-5xl text-4xl md:text-[#000000] text-white font-ad md:ml-12 ml-10">7.99$</h4>
+              <figure class="absolute md:right-0 -right-2  md:top-0 top-16">
                 <img src="assets/images/cute-dog-mid.png" alt="" class="w-[214px] md:w-[352px] h-[268px] md:h-[430px]">
               </figure>
             </div>
           </div>
 
-          <div class="card bg-base-100 shadow-xl bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]  max-w-full md:max-w-[512px] h-[385px] md:h-[405px]"> <!--card-2-->
+          <div class="card bg-base-100 shadow-xl bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]  max-w-full md:max-w-[584px] h-[345px] md:h-[405px] md:pl-8 pl-4 md:py-10 pt-4 mb-3"> 
+            <!--card-2-->
             <div class="card-body space-y-3">
               <h2 class="card-title font-ad md:text-4xl text-xl font-normal capitalize">T-shirt for dogs</h2>
               <h4 class="font-normal md:text-5xl text-4xl text-[#FFDC26] font-ad">7.99$</h4>
-              <figure class="relative -top-36 md:-top-40 left-20">
+              <figure class="absolute md:right-0 -right-2  md:top-0 top-0">
                 <img src="assets/images/cute-pet-small.png" alt="" class="w-[217px] md:w-[312px] h-[273px] md:h-[392px]">
               </figure>
             </div>
@@ -376,23 +379,23 @@
       <!-- PRICE SECTION END -->
     </main>
     <!-- NEWSLETTER SECTION START -->
-    <div class="max-w-[92%] md:max-w-[1320px] min-h-[523px] md:h-[491px] mx-auto bg-[#FFF9F4] grid grid-cols-1 md:grid-cols-[1fr_1.2fr] py-5 px-10 -mb-[245px] relative z-10 rounded-lg">
+    <div class="max-w-[92%] md:max-w-[1320px] min-h-[523px] md:h-[491px] mx-auto bg-[#FFF9F4] grid grid-cols-1 md:grid-cols-[1fr_1.2fr] py-5 px-10 -mb-[245px] relative z-10 rounded-lg shadow-md">
       <div class="flex justify-center md:items-center">
         <img src="assets/images/cute-pet-mid.png" alt="" class="w-[190px] md:w-[330px] h-[238px] md:h-[415px]">
       </div>
       <div class="md:space-y-6 space-y-3 md:pt-20">
         <h3 class="text-xl md:text-4xl font-ad font-normal text-[#1111111] text-center md:text-left">Get Pawsome News!</h3>
         <p class="text-base md:text-xl font-sora font-normal text-[#1111111] text-center md:text-left">Exclusive training tips, ticks, product deals and more.</p>
-        <input type="text" placeholder="Enter email...." class="w-full md:w-[472px] h-[42px] md:h-[67px] placeholder:pl-4 placeholder:text-base text-base pl-3 rounded-[8px] font-normal font-sora"><br>
-        <div class="flex justify-center">
-          <button class="btn w-[164px] h-[45px] font-sora text-xl font-normal bg-[#FFDC26] hover:border-solid hover:border-[#FFDC26] hover:bg-[#FFF9F4] border-none">Subscribe</button>
+        <input type="text" placeholder="Enter email...." class="w-full md:w-[472px] h-[42px] md:h-[67px] placeholder:pl-4 placeholder:text-base text-base pl-3 rounded-[8px] font-normal font-sora shadow-md"><br>
+        <div class="flex md:justify-start justify-center">
+          <button class="btn md:w-[164px] w-[121px] md:h-[45px] h-[34px] font-sora md:text-xl text-base font-normal bg-[#FFDC26] hover:border-solid hover:border-[#FFDC26] hover:bg-[#FFF9F4] border-none">Subscribe</button>
         </div>
       </div>
     </div>
     <!-- NEWSLETTER SECTION END -->
     <!-- FOOTER -->
-    <footer class="footer text-base-content md:p-10 pb-8 px-5 h-auto md:h-[654px] bg-[#ffdb2686] pt-[300px]">
-      <nav class="space-y-2">
+    <footer class="footer w-full text-base-content md:p-10 pb-8 px-5 h-auto md:h-[654px] bg-[#ffdb2686]">
+      <nav class="space-y-2 md:pt-[320px] pt-[320px]">
         <div class="flex justify-center items-center gap-2">
           <img src="assets/images/logo-footer.png" alt="" class="w-[36px] h-[36px] md:w-[48px] md:h-[48px]">
           <p class="md:text-2xl text-xl font-normal font-sora">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
@@ -401,12 +404,12 @@
           Discover a world of treats, toys, and essentials handpicked for your furry friends
         </p>
       </nav>
-      <nav class="text-base md:text-xl font-sora text-[#111111] font-normal space-y-2">
+      <nav class="text-base md:text-xl font-sora text-[#111111] font-normal space-y-2 md:pt-[320px]  pt-[20px]">
         <a class="link link-hover">Find a pet</a>
         <a class="link link-hover">Breeds</a>
         <a class="link link-hover">Contact us</a>
       </nav>
-      <nav>
+      <nav class="md:pt-[320px]  pt-[20px]">
         <h6 class="text-base text-[#111111] font-sora font-medium">Follow Us</h6>
         <div class="grid grid-flow-col gap-4 text-2xl">
           <a href="#"><i class="fa-brands fa-facebook cursor-pointer"></i></a>
